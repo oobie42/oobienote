@@ -1,0 +1,18 @@
+{
+"compilerOptions": {
+  "outDir": "out",
+  "target": "es6",
+  "module": "es6",
+  "lib": [
+    "es6",
+    "dom"
+  ]
+},
+"files": [
+  "chord.ts",
+  "note.ts",
+  "play_note.ts",
+  "tuning.ts",
+  "webaudio.ts"
+  ]
+}

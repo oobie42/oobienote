@@ -1,0 +1,3 @@
+To open this locally on Firefox
+1) about:config
+2) set privacy.file_unique_origin to false
