@@ -1,0 +1,12 @@
+<div>
+  <button (click)="play()">Play Chord</button>
+  <button (click)="stop()">Stop</button>
+  <button (click)="reset()">Reset</button>
+  <!-- XXX use the fancy *ngFor -->
+  <app-tone [toneState]="toneState1" [toneFrequency]="toneFrequency1">
+  </app-tone>
+  <app-tone [toneState]="toneState2" [toneFrequency]="toneFrequency2">
+  </app-tone>
+  <app-tone [toneState]="toneState3" [toneFrequency]="toneFrequency3">
+  </app-tone>
+</div>

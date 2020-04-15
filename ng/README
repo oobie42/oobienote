@@ -1,0 +1,5 @@
+Create a directory somewhere and run "ng new".
+Remove the "src" in that directory.
+Copy in this "src" instead.
+In that directory run "ng serve --open".
+Known to work with ng 9.1.1 on a Mac running Chrome.
