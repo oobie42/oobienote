@@ -1,0 +1,6 @@
+<div>
+  <button (click)="moreSteps()">More Steps</button>
+  <button (click)="fewerSteps()">Fewer Steps</button>
+  <span>{{tuningSteps}}</span>
+  <app-chord [chordTuningSteps]="tuningSteps"></app-chord>
+</div>

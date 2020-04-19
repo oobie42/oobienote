@@ -18,9 +18,9 @@ export class ChordComponent {
   toneState2: ToneState;
   toneFrequency3: number;
   toneState3: ToneState;
-  constructor() {
-    this.tuning = new Tuning(12);
+  @Input() set chordTuningSteps(chordTuningSteps: number) {
     this.stop();
+    this.tuning = new Tuning(chordTuningSteps);
     this.initFrequencies();
   }
   initFrequencies() {

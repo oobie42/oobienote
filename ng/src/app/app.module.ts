@@ -4,6 +4,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ChordComponent } from './chord.component';
 import { ToneComponent } from './tone.component';
+import { TuningComponent } from './tuning.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { ToneComponent } from './tone.component';
   declarations: [
     AppComponent,
     ChordComponent,
-    ToneComponent
+    ToneComponent,
+    TuningComponent
   ],
   providers: [
   ],
