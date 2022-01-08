@@ -1,0 +1,12 @@
+
+https://svelte.dev/blog/svelte-for-new-developers
+
+Put main.js, App.svelte and Note.svelte in the src directory of a new Svelte
+project.
+
+npm run dev
+
+On Chrome on a Mac use http://127.0.0.1:5000/
+(See https://github.com/sveltejs/template/issues/184)
+
+
