@@ -1,0 +1,13 @@
+App.vue and Note.vue go in the src directory of a Vue project.
+
+Here's the recipe for a Vue project:
+
+$ npm install -g @vue/cli
+$ vue create hello-world [picking Vue3]
+$ npm run serve
+
+This is the version of Vue used for this code.
+
+$ vue --version
+@vue/cli 4.5.15
+
