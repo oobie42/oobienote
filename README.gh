@@ -1,0 +1,5 @@
+How to submit new files to GitHub:
+
+git add a b c
+git commit -m "Some message"
+git push origin master
