@@ -1,0 +1,6 @@
+https://www.solidjs.com/guides/getting-started
+
+npx degit solidjs/templates/ts my-app
+cd my-app
+npm i
+npm run dev
