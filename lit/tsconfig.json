@@ -1,0 +1,18 @@
+{
+"compilerOptions": {
+  "experimentalDecorators": true,
+  "lib": [
+    "es6",
+    "dom"
+  ],
+  "module": "es6",
+  "moduleResolution": "node",
+  "outDir": "out",
+  "target": "es6"
+},
+"files": [
+  "chord-element.ts",
+  "key-element.ts",
+  ]
+}
+
