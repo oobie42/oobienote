@@ -1,0 +1,17 @@
+{
+"compilerOptions": {
+  "experimentalDecorators": true,
+  "lib": [
+    "es6",
+    "dom"
+  ],
+  "module": "es6",
+  "moduleResolution": "node",
+  "outDir": "out",
+  "target": "es6"
+},
+"files": [
+  "welcome-banner.ts",
+  ]
+}
+
