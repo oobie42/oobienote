@@ -60,4 +60,5 @@ function onReset(event) {
 <button on:click={onHigher}>Higher</button>
 <button on:click={onLower}>Lower</button>
 <button on:click={onReset}>Reset</button>
+{frequency.toFixed(2)}
 
