@@ -17,9 +17,7 @@ function startOscillator(frequency) {
   return oscillator;
 }
 
-function Note(props) {
-  const [play, setPlay] = useState(false);
-  const [frequency, setFrequency] = useState(props.frequency);
+function useOscillator(play, frequency) {
   const [oscillator, setOscillator] = useState(undefined);
 
   // Here we reflect the UI state into the Web Audio API.  If the UI changes
@@ -34,6 +32,12 @@ function Note(props) {
       setOscillator(startOscillator(frequency));
     }
   }, [play, frequency]);
+}
+
+function Note(props) {
+  const [play, setPlay] = useState(false);
+  const [frequency, setFrequency] = useState(props.frequency);
+  useOscillator(play, frequency);
 
   function onPlayStop() {
     setPlay(play ? false : true);
@@ -63,7 +67,9 @@ function Chord() {
   return (
    <>
     <Note frequency="440"/>
+    <br></br>
     <Note frequency={440 * semiTone(4)}/>
+    <br></br>
     <Note frequency={440 * semiTone(7)}/>
    </>
   );
